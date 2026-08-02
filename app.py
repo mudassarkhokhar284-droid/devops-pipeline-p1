@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "success",
-        "message": "Welcome To The Project 1 : Automated CI/CD Pipelines Version 2.0.0 !",
+        "message": "Welcome To The Project 1 : Automated CI/CD Pipelines !",
         "version": "1.0.0"
     })
 
